@@ -9,6 +9,7 @@ https://github.com/laserlemon/figaro
 Add this to your application.yml:
 
 DB_USERNAME: "testusername"
+
 DB_PASSWORD: "testpassword"
 
 Replace the values as appropriate to reflect your database configuration.
