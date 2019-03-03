@@ -14,6 +14,6 @@ DB_PASSWORD: "testpassword"
 
 Replace the values as appropriate to reflect your database configuration.
 
-After this run: "rake db:create", then "rails db:migrate" to set up the database with the tables.
+After this run: "rails db:create", then "rails db:migrate" to set up the database with the tables.
 
 Finally, run "rails server" to start up your local server and have fun!
