@@ -1,24 +1,19 @@
-# README
+# Rails Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project uses Ruby 2.6.1p33 and Rails 5.2.2.
 
-Things you may want to cover:
+After you clone this project and run "bundle install" to install the gems you'll need to also run "bundle exec figaro install" to generate your "config/application.yml" file.
+Follow this link for the documentation for figaro:
+https://github.com/laserlemon/figaro
 
-* Ruby version
+Add this to your application.yml:
 
-* System dependencies
+DB_USERNAME: "testusername"
 
-* Configuration
+DB_PASSWORD: "testpassword"
 
-* Database creation
+Replace the values as appropriate to reflect your database configuration.
 
-* Database initialization
+After this run: "rails db:create", then "rails db:migrate" to set up the database with the tables.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Finally, run "rails server" to start up your local server and have fun!
